@@ -1,0 +1,84 @@
+Will train until validation_0 error hasn't decreased in 25 rounds.
+[0]	validation_0-mlogloss:3.053333
+[1]	validation_0-mlogloss:2.815360
+[2]	validation_0-mlogloss:2.625192
+[3]	validation_0-mlogloss:2.479883
+[4]	validation_0-mlogloss:2.361518
+[5]	validation_0-mlogloss:2.262132
+[6]	validation_0-mlogloss:2.171460
+[7]	validation_0-mlogloss:2.087044
+[8]	validation_0-mlogloss:2.029171
+[9]	validation_0-mlogloss:1.967353
+[10]	validation_0-mlogloss:1.916227
+[11]	validation_0-mlogloss:1.862052
+[12]	validation_0-mlogloss:1.812876
+[13]	validation_0-mlogloss:1.774418
+[14]	validation_0-mlogloss:1.740279
+[15]	validation_0-mlogloss:1.703204
+[16]	validation_0-mlogloss:1.673254
+[17]	validation_0-mlogloss:1.643582
+[18]	validation_0-mlogloss:1.622352
+[19]	validation_0-mlogloss:1.594132
+[20]	validation_0-mlogloss:1.579152
+[21]	validation_0-mlogloss:1.550810
+[22]	validation_0-mlogloss:1.520330
+[23]	validation_0-mlogloss:1.497780
+[24]	validation_0-mlogloss:1.477459
+[25]	validation_0-mlogloss:1.458592
+[26]	validation_0-mlogloss:1.443002
+[27]	validation_0-mlogloss:1.432107
+[28]	validation_0-mlogloss:1.421512
+[29]	validation_0-mlogloss:1.408939
+[30]	validation_0-mlogloss:1.390982
+[31]	validation_0-mlogloss:1.379647
+[32]	validation_0-mlogloss:1.374807
+[33]	validation_0-mlogloss:1.367744
+[34]	validation_0-mlogloss:1.364203
+[35]	validation_0-mlogloss:1.348395
+[36]	validation_0-mlogloss:1.336306
+[37]	validation_0-mlogloss:1.327406
+[38]	validation_0-mlogloss:1.316315
+[39]	validation_0-mlogloss:1.308445
+[40]	validation_0-mlogloss:1.310462
+[41]	validation_0-mlogloss:1.307405
+[42]	validation_0-mlogloss:1.308866
+[43]	validation_0-mlogloss:1.297816
+[44]	validation_0-mlogloss:1.288678
+[45]	validation_0-mlogloss:1.285241
+[46]	validation_0-mlogloss:1.287980
+[47]	validation_0-mlogloss:1.285590
+[48]	validation_0-mlogloss:1.285837
+[49]	validation_0-mlogloss:1.278202
+[50]	validation_0-mlogloss:1.271258
+[51]	validation_0-mlogloss:1.274680
+[52]	validation_0-mlogloss:1.282037
+[53]	validation_0-mlogloss:1.287789
+[54]	validation_0-mlogloss:1.290316
+[55]	validation_0-mlogloss:1.297261
+[56]	validation_0-mlogloss:1.301245
+[57]	validation_0-mlogloss:1.315363
+[58]	validation_0-mlogloss:1.320549
+[59]	validation_0-mlogloss:1.328104
+[60]	validation_0-mlogloss:1.337754
+[61]	validation_0-mlogloss:1.343058
+[62]	validation_0-mlogloss:1.339146
+[63]	validation_0-mlogloss:1.355328
+[64]	validation_0-mlogloss:1.374394
+[65]	validation_0-mlogloss:1.395771
+[66]	validation_0-mlogloss:1.403940
+[67]	validation_0-mlogloss:1.417976
+[68]	validation_0-mlogloss:1.443885
+[69]	validation_0-mlogloss:1.481389
+[70]	validation_0-mlogloss:1.499938
+[71]	validation_0-mlogloss:1.519835
+[72]	validation_0-mlogloss:1.553903
+[73]	validation_0-mlogloss:1.566534
+[74]	validation_0-mlogloss:1.591327
+[75]	validation_0-mlogloss:1.585449
+Stopping. Best iteration:
+[50]	validation_0-mlogloss:1.271258
+
+Traceback (most recent call last):
+  File "Walmart-XGB-6.py", line 116, in <module>
+    cm = confusion_matrix(y_train,y_pred)
+NameError: name 'y_pred' is not defined
