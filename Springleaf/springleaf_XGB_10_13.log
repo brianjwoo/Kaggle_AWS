@@ -1,0 +1,16 @@
+sys:1: DtypeWarning: Columns (8,9,10,11,12,43,157,196,214,225,228,229,231,235,238) have mixed types. Specify dtype option on import or set low_memory=False.
+sys:1: DtypeWarning: Columns (8,9,10,11,12,43,157,167,177,196,214,225,228,229,231,235,238) have mixed types. Specify dtype option on import or set low_memory=False.
+/home/ubuntu/anaconda/lib/python2.7/site-packages/numpy/lib/arraysetops.py:200: FutureWarning: numpy not_equal will not check object identity in the future. The comparison did not return the same result as suggested by the identity (`is`)) and will change.
+  flag = np.concatenate(([True], aux[1:] != aux[:-1]))
+[Parallel(n_jobs=1)]: Done   1 jobs       | elapsed: 35.7min
+[Parallel(n_jobs=1)]: Done  18 out of  18 | elapsed: 834.8min finished
+Fitting 3 folds for each of 6 candidates, totalling 18 fits
+=======================================================
+{'n_estimators': 2500, 'subsample': 0.9, 'learning_rate': 0.02, 'colsample_bytree': 0.6, 'max_depth': 24}
+=======================================================
+mean: 0.79203, std: 0.00136, params: {'n_estimators': 2500, 'subsample': 0.9, 'learning_rate': 0.04, 'colsample_bytree': 0.6, 'max_depth': 14}
+mean: 0.79289, std: 0.00062, params: {'n_estimators': 2500, 'subsample': 0.9, 'learning_rate': 0.02, 'colsample_bytree': 0.6, 'max_depth': 14}
+mean: 0.79294, std: 0.00076, params: {'n_estimators': 2500, 'subsample': 0.9, 'learning_rate': 0.02, 'colsample_bytree': 0.6, 'max_depth': 20}
+mean: 0.79304, std: 0.00097, params: {'n_estimators': 2500, 'subsample': 0.9, 'learning_rate': 0.02, 'colsample_bytree': 0.6, 'max_depth': 24}
+mean: 0.79203, std: 0.00136, params: {'n_estimators': 2500, 'subsample': 0.9, 'learning_rate': 0.04, 'colsample_bytree': 0.6, 'max_depth': 14}
+mean: 0.79205, std: 0.00088, params: {'n_estimators': 2500, 'subsample': 0.9, 'learning_rate': 0.04, 'colsample_bytree': 0.8, 'max_depth': 24}

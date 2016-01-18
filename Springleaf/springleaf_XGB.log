@@ -1,0 +1,31 @@
+sys:1: DtypeWarning: Columns (8,9,10,11,12,43,157,196,214,225,228,229,231,235,238) have mixed types. Specify dtype option on import or set low_memory=False.
+sys:1: DtypeWarning: Columns (8,9,10,11,12,43,157,167,177,196,214,225,228,229,231,235,238) have mixed types. Specify dtype option on import or set low_memory=False.
+/home/ubuntu/anaconda/lib/python2.7/site-packages/numpy/lib/arraysetops.py:200: FutureWarning: numpy not_equal will not check object identity in the future. The comparison did not return the same result as suggested by the identity (`is`)) and will change.
+  flag = np.concatenate(([True], aux[1:] != aux[:-1]))
+[Parallel(n_jobs=1)]: Done   1 jobs       | elapsed: 34.6min
+[Parallel(n_jobs=1)]: Done  50 jobs       | elapsed: 1418.6min
+[Parallel(n_jobs=1)]: Done  80 out of  80 | elapsed: 2322.4min finished
+Fitting 4 folds for each of 20 candidates, totalling 80 fits
+=======================================================
+{'n_estimators': 2000, 'subsample': 0.9, 'learning_rate': 0.02, 'colsample_bytree': 0.6, 'max_depth': 14}
+=======================================================
+mean: 0.79354, std: 0.00286, params: {'n_estimators': 2000, 'subsample': 0.7, 'learning_rate': 0.01, 'colsample_bytree': 0.6, 'max_depth': 14}
+mean: 0.78833, std: 0.00235, params: {'n_estimators': 2000, 'subsample': 0.7, 'learning_rate': 0.01, 'colsample_bytree': 0.8, 'max_depth': 6}
+mean: 0.79370, std: 0.00254, params: {'n_estimators': 2000, 'subsample': 0.7, 'learning_rate': 0.02, 'colsample_bytree': 0.8, 'max_depth': 14}
+mean: 0.79390, std: 0.00268, params: {'n_estimators': 2000, 'subsample': 0.9, 'learning_rate': 0.01, 'colsample_bytree': 0.6, 'max_depth': 14}
+mean: 0.79255, std: 0.00264, params: {'n_estimators': 2000, 'subsample': 0.9, 'learning_rate': 0.015, 'colsample_bytree': 0.6, 'max_depth': 10}
+mean: 0.78783, std: 0.00248, params: {'n_estimators': 2000, 'subsample': 0.9, 'learning_rate': 0.01, 'colsample_bytree': 0.8, 'max_depth': 6}
+mean: 0.78911, std: 0.00226, params: {'n_estimators': 2000, 'subsample': 0.9, 'learning_rate': 0.015, 'colsample_bytree': 0.8, 'max_depth': 6}
+mean: 0.79354, std: 0.00286, params: {'n_estimators': 2000, 'subsample': 0.7, 'learning_rate': 0.01, 'colsample_bytree': 0.6, 'max_depth': 14}
+mean: 0.79424, std: 0.00223, params: {'n_estimators': 2000, 'subsample': 0.9, 'learning_rate': 0.015, 'colsample_bytree': 0.6, 'max_depth': 14}
+mean: 0.79146, std: 0.00280, params: {'n_estimators': 2000, 'subsample': 0.7, 'learning_rate': 0.02, 'colsample_bytree': 0.8, 'max_depth': 10}
+mean: 0.79005, std: 0.00245, params: {'n_estimators': 2000, 'subsample': 0.7, 'learning_rate': 0.02, 'colsample_bytree': 0.8, 'max_depth': 6}
+mean: 0.79400, std: 0.00253, params: {'n_estimators': 2000, 'subsample': 0.7, 'learning_rate': 0.02, 'colsample_bytree': 0.6, 'max_depth': 14}
+mean: 0.79211, std: 0.00269, params: {'n_estimators': 2000, 'subsample': 0.9, 'learning_rate': 0.02, 'colsample_bytree': 0.6, 'max_depth': 10}
+mean: 0.79255, std: 0.00264, params: {'n_estimators': 2000, 'subsample': 0.9, 'learning_rate': 0.015, 'colsample_bytree': 0.6, 'max_depth': 10}
+mean: 0.78945, std: 0.00227, params: {'n_estimators': 2000, 'subsample': 0.9, 'learning_rate': 0.015, 'colsample_bytree': 0.6, 'max_depth': 6}
+mean: 0.79433, std: 0.00241, params: {'n_estimators': 2000, 'subsample': 0.9, 'learning_rate': 0.02, 'colsample_bytree': 0.8, 'max_depth': 14}
+mean: 0.79443, std: 0.00232, params: {'n_estimators': 2000, 'subsample': 0.9, 'learning_rate': 0.02, 'colsample_bytree': 0.6, 'max_depth': 14}
+mean: 0.79255, std: 0.00264, params: {'n_estimators': 2000, 'subsample': 0.9, 'learning_rate': 0.015, 'colsample_bytree': 0.6, 'max_depth': 10}
+mean: 0.79297, std: 0.00280, params: {'n_estimators': 2000, 'subsample': 0.9, 'learning_rate': 0.015, 'colsample_bytree': 0.8, 'max_depth': 10}
+mean: 0.79343, std: 0.00280, params: {'n_estimators': 2000, 'subsample': 0.9, 'learning_rate': 0.01, 'colsample_bytree': 0.8, 'max_depth': 14}
